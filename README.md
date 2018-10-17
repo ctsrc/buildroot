@@ -1,6 +1,6 @@
-# Feature-branches
+# Current feature-branches
 
-* [box](https://github.com/ctsrc/buildroot/tree/box) -- for RPi3 with webcam and OpenCV
+* [box-20181017](https://github.com/ctsrc/buildroot/tree/box-20181017) -- for RPi3 with webcam and OpenCV
 
 # Development Setup on openSUSE Tumbleweed
 
@@ -27,8 +27,9 @@ For this repo, I rebase instead of creating merge commits (see [*Merge Pull Requ
 ```bash
 mkdir -p /build/buildroot/box
 cd /build/buildroot/box/
-git clone -b box git@github.com:ctsrc/buildroot.git src
+git clone -b box-20181017 git@github.com:ctsrc/buildroot.git src
 cd src
+git branch box-$( date +%Y%m%d )
 git remote add jumpnow git@github.com:jumpnow/buildroot.git
 ```
 
