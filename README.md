@@ -15,6 +15,9 @@ sudo umount /mnt
 sudo mkdir /build
 sudo mount -o subvol=/@/build /dev/vgsystem/lvroot /build
 sudo chown $( whoami ):users /build
+sudo tee -a /etc/fstab >/dev/null <<EOF
+/dev/vgsystem/lvroot                       /build                  btrfs  subvol=/@/build               0  0
+EOF
 ```
 
 ## Clone feature-branch and rebase
