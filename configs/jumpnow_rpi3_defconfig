@@ -1,9 +1,9 @@
 BR2_arm=y
 BR2_cortex_a7=y
 BR2_ARM_FPU_NEON_VFPV4=y
-BR2_DL_DIR="/srv/buildroot-dl"
+BR2_DL_DIR="/build/buildroot/box/dl"
 BR2_CCACHE=y
-BR2_CCACHE_DIR="/srv/buildroot-ccache"
+BR2_CCACHE_DIR="/build/buildroot/box/ccache"
 BR2_TOOLCHAIN_BUILDROOT_GLIBC=y
 BR2_KERNEL_HEADERS_4_14=y
 BR2_BINUTILS_VERSION_2_31_X=y
