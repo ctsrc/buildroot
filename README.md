@@ -4,6 +4,12 @@
 
 # Development Setup on openSUSE Tumbleweed
 
+## Install dependencies
+
+```bash
+sudo zypper install git
+```
+
 ## Create `/build` owned by your user
 
 The following commands apply assuming openSUSE Tumbleweed was installed with a btrfs root (the default) under a logical volume named `lvroot` (differs from the default name; `root`) under a volume group named `vgsystem` (differs from the default name; `system`), and that mounting is done by volume label (differs from the default; mount by UUID).
