@@ -1,3 +1,7 @@
+# Feature-branches
+
+* [box](https://github.com/ctsrc/buildroot/tree/box) -- for RPi3 with webcam and OpenCV
+
 # Development Setup on openSUSE Tumbleweed
 
 ## Create `/build` owned by your user
