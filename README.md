@@ -29,11 +29,12 @@ mkdir -p /build/buildroot/box
 cd /build/buildroot/box/
 git clone -b box-20181017 git@github.com:ctsrc/buildroot.git src
 cd src
-git branch box-$( date +%Y%m%d )
 git remote add jumpnow git@github.com:jumpnow/buildroot.git
 ```
 
 ```bash
 git fetch jumpnow jumpnow
+tgtb=box-$( date +%Y%m%d )
+git checkout -b $tgtb 2>/dev/null || git checkout $tgtb
 git rebase jumpnow/jumpnow
 ```
