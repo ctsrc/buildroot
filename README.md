@@ -60,4 +60,5 @@ See also [Building Raspberry Pi Systems with Buildroot](https://jumpnowtek.com/r
 
 ```bash
 make jumpnow_rpi3_defconfig
+make
 ```
