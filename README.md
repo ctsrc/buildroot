@@ -2,6 +2,14 @@
 
 * [box-20181017](https://github.com/ctsrc/buildroot/tree/box-20181017) -- for RPi3 with webcam and OpenCV
 
+## Table of Contents
+
+* [Development Setup on openSUSE Tumbleweed](#development-setup-on-opensuse-tumbleweed)
+  - [Install dependencies](#install-dependencies)
+  - [Create `/build` owned by your user](#create-build-owned-by-your-user)
+  - [Clone feature-branch and rebase](#clone-feature-branch-and-rebase)
+* [Building](#building)
+
 ## Development Setup on openSUSE Tumbleweed
 
 ### Install dependencies
