@@ -45,3 +45,11 @@ tgtb=box-$( date +%Y%m%d )
 git checkout -b $tgtb 2>/dev/null || git checkout $tgtb
 git rebase jumpnow/jumpnow
 ```
+
+# Building
+
+See also [Building Raspberry Pi Systems with Buildroot](https://jumpnowtek.com/rpi/Raspberry-Pi-Systems-with-Buildroot.html) for additional details.
+
+```bash
+make jumpnow_rpi3_defconfig
+```
