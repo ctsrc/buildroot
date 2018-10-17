@@ -15,7 +15,7 @@
 ### Install dependencies
 
 ```bash
-sudo zypper install git
+sudo zypper install git gcc-c++ bc patch
 ```
 
 ### Create `/build` owned by your user
