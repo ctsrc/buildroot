@@ -27,6 +27,7 @@ For this repo, I rebase instead of creating merge commits (see [*Merge Pull Requ
 ```bash
 mkdir -p /build/buildroot/box
 cd /build/buildroot/box/
+mkdir -p {dl,ccache}
 git clone -b box-20181017 git@github.com:ctsrc/buildroot.git src
 cd src
 git remote add jumpnow git@github.com:jumpnow/buildroot.git
